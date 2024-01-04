@@ -17,7 +17,7 @@ int max(int arr[], int n)
     return max;
 }
 
-//function to check the smallest element
+// function to check the smallest element
 
 int min(int arr[], int n)
 {
