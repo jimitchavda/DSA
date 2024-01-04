@@ -1,6 +1,14 @@
+/*
+This is a practice problem from geeksforgeeks daily question,
+You are given an array of n elements where all elements occur thrice except one,
+if it is present it shall return that value or return -1
+*/
+
 #include <iostream>
 
 using namespace std;
+
+// This will check the number of occurence of each element
 
 int isPresent(int arr[], int n, int key)
 {
@@ -15,6 +23,7 @@ int isPresent(int arr[], int n, int key)
     return count;
 }
 
+// This will check the number of occurence of each item, if it's one it will return it or will give -1 
 int onlyOccurOnce(int arr[], int n)
 {
 
