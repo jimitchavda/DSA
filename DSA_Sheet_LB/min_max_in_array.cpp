@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// function to check the greatest element
+
 int max(int arr[], int n)
 {
     int max = arr[0];
@@ -14,6 +16,8 @@ int max(int arr[], int n)
     }
     return max;
 }
+
+//function to check the smallest element
 
 int min(int arr[], int n)
 {
