@@ -29,7 +29,7 @@ void reverse_array(int arr[], int n)
     }
 }
 
-//function to print whole array
+// function to print whole array
 void print_array(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
