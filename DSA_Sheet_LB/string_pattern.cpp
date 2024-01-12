@@ -25,6 +25,25 @@ There's not substring "edu" present in txt.*/
 
 using namespace std;
 
-int main() {
-    
-}
+class string_pattern
+{
+    int check(string txt, string pat)
+    {
+        int count = 0;
+        int times = txt.length() - pat.length();
+        for (int i = 0; i < times; i++)
+        {
+            string temp = txt.substr(i, pat.length());
+            if (temp == pat)
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+    int main()
+    {
+        cout << check("geeksforgeeks", "geek") << endl;
+        return 0;
+    }
+};
